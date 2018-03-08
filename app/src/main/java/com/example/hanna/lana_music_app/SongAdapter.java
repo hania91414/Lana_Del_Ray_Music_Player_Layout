@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
 import java.util.ArrayList;
 
 /**
@@ -39,20 +40,19 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
 
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView songNameTextView = (TextView) listItemView.findViewById(R.id.song_title);
+        TextView songNameTextView = listItemView.findViewById(R.id.song_title);
         // Get the version name from the current Song object and
         // set this text on the name TextView
         songNameTextView.setText(currentSong.getmSongName());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView songTimeTextView = (TextView) listItemView.findViewById(R.id.song_time);
+        TextView songTimeTextView = listItemView.findViewById(R.id.song_time);
         // Get the version number from the current Song object and
         // set this text on the number TextView
         songTimeTextView.setText(currentSong.getmSongTime());
 
         return listItemView;
     }
-
 
 
 }
