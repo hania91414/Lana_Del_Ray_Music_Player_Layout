@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_covers_size">100dp</dimen>
+    <dimen name="album_covers_margin">6dp</dimen>
+    <dimen name="album_covers_margin_right">30dp</dimen>
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="play_button_size">24dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="padding_left_list_items">8dp</dimen>
+    <dimen name="padding_right_list_items">8dp</dimen>
+    <dimen name="margin_top_list_items">4dp</dimen>
+    <dimen name="song_title_size">16sp</dimen>
+    <dimen name="song_time_size">14sp</dimen>
+    <dimen name="time_item_margin_top">2dp</dimen>
+    <dimen name="activity_horizontal_padding">2dp</dimen>
+    <dimen name="activity_vertical_padding">6dp</dimen>
+    <dimen name="stop_icon_size">18dp</dimen>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hanna.lana_music_app.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        style="@style/relative_layouts_styles">
+
+        <TextView
+            android:id="@+id/album4"
+            android:background="@color/album4_color"
+            android:text="@string/Lust_for_Life"
+            style="@style/Menu_albums"
+            />
+
+        <ImageView
+            android:id="@+id/album4_cover"
+            android:layout_alignTop="@id/album4"
+            android:layout_alignBottom="@id/album4"
+            style="@style/images_style"
+            android:src="@drawable/lust_for_life"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        style="@style/relative_layouts_styles">
+
+    <TextView
+        android:id="@+id/album3"
+        style="@style/Menu_albums"
+        android:background="@color/album3_color"
+        android:text="@string/Honeymoon" />
+
+        <ImageView
+            android:id="@+id/album3_cover"
+            android:layout_alignTop="@id/album3"
+            android:layout_alignBottom="@id/album3"
+            style="@style/images_style"
+            android:src="@drawable/honeymoon"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        style="@style/relative_layouts_styles">
+
+    <TextView
+        android:id="@+id/album2"
+        style="@style/Menu_albums"
+        android:background="@color/album2_color"
+        android:text="@string/Ultraviolence" />
+
+        <ImageView
+            android:id="@+id/album2_cover"
+            android:layout_alignTop="@id/album2"
+            android:layout_alignBottom="@id/album2"
+            style="@style/images_style"
+            android:src="@drawable/ultraviolence"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        style="@style/relative_layouts_styles">
+
+    <TextView
+        android:id="@+id/album1"
+        style="@style/Menu_albums"
+        android:background="@color/album1_color"
+        android:text="@string/Born_to_die" />
+
+        <ImageView
+            android:id="@+id/album1_cover"
+            android:layout_alignTop="@id/album1"
+            android:layout_alignBottom="@id/album1"
+            style="@style/images_style"
+            android:src="@drawable/born_to_die"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
